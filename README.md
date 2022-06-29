@@ -9,3 +9,10 @@ Following techniques are employed to enhance the performance of the VAE:
 - Similar to SimCRL, the difference in embeddings of two randomly augmented versions of the same image are minimized during training, in addition to the usual VAE loss funciton.
 
 Empirically, visually similar textures appear to yield embeddings close to one another, which is in line with human perception.
+
+## Prerequisites
+- Python 3.7
+- TensorFlow 2.7
+- numpy
+- PIL
+- pickle
